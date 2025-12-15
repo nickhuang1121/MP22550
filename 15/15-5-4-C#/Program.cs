@@ -1,0 +1,88 @@
+﻿using Raylib_cs;
+const int MEMORY_START_ADDRESS = 0x200;
+bool[] Keyboard = new bool[16];
+bool[] Pixels = new bool[32 * 64];
+byte[] Fontset =
+    {
+         0xf0, 0x90, 0x90, 0x90, 0xf0, //0
+         0x20, 0x60, 0x20, 0x20, 0x70, //1
+         0xf0, 0x10, 0xf0, 0x80, 0xf0, //2
+        0xf0, 0x10, 0xf0, 0x10, 0xf0, //3
+         0x90, 0x90, 0xf0, 0x10, 0x10, //4
+         0xf0, 0x80, 0xf0, 0x10, 0xf0, //5
+         0xf0, 0x80, 0xf0, 0x90, 0xf0, //6
+         0xf0, 0x10, 0x20, 0x40, 0x40, //7
+         0xf0, 0x90, 0xf0, 0x90, 0xf0, //8
+         0xf0, 0x90, 0xf0, 0x10, 0xf0, //9
+         0xf0, 0x90, 0xf0, 0x90, 0x90, //A
+         0xe0, 0x90, 0xe0, 0x90, 0xe0, //B
+         0xf0, 0x80, 0x80, 0x80, 0xf0, //C
+         0xe0, 0x90, 0x90, 0x90, 0xe0, //D
+         0xf0, 0x80, 0xf0, 0x80, 0xf0, //E
+         0xf0, 0x80, 0xf0, 0x80, 0x80 //F
+     };
+
+byte[] Memory = new byte[4096];
+byte[] V = new byte[16];
+ushort[] Stack = new ushort[16];
+ushort I = 0;
+byte Delay_timer = 0;
+byte Sound_timer = 0;
+ushort PC = MEMORY_START_ADDRESS;
+byte SP = 0;
+ushort Opcode = 0;
+int FileSize = 0;
+
+void execCode()
+{
+    ushort nnn = (ushort)(Opcode & 0x0FFF);
+    byte n = (byte)(Opcode & 0x000F);
+    byte x = (byte)((Opcode & 0x0F00) >> 8);
+    byte y = (byte)((Opcode & 0x00F0) >> 4);
+    byte kk = (byte)(Opcode & 0x00FF);
+    switch (Opcode & 0xF000)
+    {
+        case 0x0000:
+            switch (Opcode)
+            {
+                case 0x00E0:
+                    for (int i = 0; i < 32 * 64; i++)
+                    {
+                        Pixels[i] = false;
+                    }
+                    break;
+                case 0x00EE:
+                    PC = Stack[SP];
+                    SP--;
+                    break;
+            }
+            break;
+
+    }
+}
+
+void gameLoop()
+{
+    Raylib.InitWindow(640, 320, "Hello Raylib!");
+    Raylib.SetTargetFPS(10);
+    while (!Raylib.WindowShouldClose())
+    {
+        Raylib.BeginDrawing();
+        Raylib.ClearBackground(Color.Black);
+        Opcode = (ushort)(Memory[PC] << 8 | Memory[PC + 1]);
+        PC += 2;
+        Console.WriteLine($"操作碼：{Opcode:X}");
+        Raylib.EndDrawing();
+    }
+    Raylib.CloseWindow();
+}
+
+void loadRom()
+{
+    var fs = new FileStream("./INVADERS", FileMode.Open);
+    FileSize = (int)fs.Length;
+    fs.ReadExactly(Memory, MEMORY_START_ADDRESS, FileSize);
+    Array.Copy(Fontset, Memory, 80);
+    gameLoop();
+}
+loadRom();

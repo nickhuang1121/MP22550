@@ -1,0 +1,50 @@
+const MEMORY_START_ADDRESS = 0x200;
+let Keyboard = new Array(16).fill(false);
+let Pixels = new Array(32 * 64).fill(false);
+const Fontset =
+    [
+        0xf0, 0x90, 0x90, 0x90, 0xf0, //0
+        0x20, 0x60, 0x20, 0x20, 0x70, //1
+        0xf0, 0x10, 0xf0, 0x80, 0xf0, //2
+        0xf0, 0x10, 0xf0, 0x10, 0xf0, //3
+        0x90, 0x90, 0xf0, 0x10, 0x10, //4
+        0xf0, 0x80, 0xf0, 0x10, 0xf0, //5
+        0xf0, 0x80, 0xf0, 0x90, 0xf0, //6
+        0xf0, 0x10, 0x20, 0x40, 0x40, //7
+        0xf0, 0x90, 0xf0, 0x90, 0xf0, //8
+        0xf0, 0x90, 0xf0, 0x10, 0xf0, //9
+        0xf0, 0x90, 0xf0, 0x90, 0x90, //A
+        0xe0, 0x90, 0xe0, 0x90, 0xe0, //B
+        0xf0, 0x80, 0x80, 0x80, 0xf0, //C
+        0xe0, 0x90, 0x90, 0x90, 0xe0, //D
+        0xf0, 0x80, 0xf0, 0x80, 0xf0, //E
+        0xf0, 0x80, 0xf0, 0x80, 0x80 //F
+    ];
+
+let Memory = new Uint8Array(4096);
+let V = new Uint8Array(16);
+let Stack = new Uint16Array(16);
+let I = 0;
+let Delay_timer = 0;
+let Sound_timer = 0;
+let PC = MEMORY_START_ADDRESS;
+let SP = 0;
+let Opcode = 0;
+let FileSize = 0;
+
+function loadROM() {
+    const xhr = new XMLHttpRequest();
+    xhr.open("GET", "./INVADERS", true);
+    xhr.responseType = "arraybuffer";
+    xhr.onload = function (e) {
+        let view = new Uint8Array(this.response);
+        FileSize = this.response.byteLength;
+        for (let i = 0; i < FileSize; i++) {
+            Memory[i] = view[i];
+        }
+        console.log("第一個操作碼：", Memory[0].toString(16), Memory[1].toString(16));
+        console.log("容量為：", FileSize, "kb")
+    };
+    xhr.send();
+};
+loadROM();

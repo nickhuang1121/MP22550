@@ -1,0 +1,10 @@
+let student1 = "Dan";
+let student2 = "Mark";
+let student3 = "Lisa";
+let student4 = "Coco";
+let student5 = "Ann";
+console.log("點名:" + student1);
+console.log("點名:" + student2);
+console.log("點名:" + student3);
+console.log("點名:" + student4);
+console.log("點名:" + student5);

@@ -1,0 +1,10 @@
+﻿string student1 = "Dan";
+string student2 = "Mark";
+string student3 = "Lisa";
+string student4 = "Coco";
+string student5 = "Ann";
+Console.WriteLine("點名:" + student1);
+Console.WriteLine("點名:" + student2);
+Console.WriteLine("點名:" + student3);
+Console.WriteLine("點名:" + student4);
+Console.WriteLine("點名:" + student5);

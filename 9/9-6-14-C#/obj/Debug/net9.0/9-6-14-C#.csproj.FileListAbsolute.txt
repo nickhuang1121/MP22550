@@ -1,0 +1,14 @@
+c:\Users\nickh\Documents\博碩事項\書籍\第一版_黃裕淵\語法範例與ROM檔案\9\9-6-14-C#\bin\Debug\net9.0\9-6-14-C#.exe
+c:\Users\nickh\Documents\博碩事項\書籍\第一版_黃裕淵\語法範例與ROM檔案\9\9-6-14-C#\bin\Debug\net9.0\9-6-14-C#.deps.json
+c:\Users\nickh\Documents\博碩事項\書籍\第一版_黃裕淵\語法範例與ROM檔案\9\9-6-14-C#\bin\Debug\net9.0\9-6-14-C#.runtimeconfig.json
+c:\Users\nickh\Documents\博碩事項\書籍\第一版_黃裕淵\語法範例與ROM檔案\9\9-6-14-C#\bin\Debug\net9.0\9-6-14-C#.dll
+c:\Users\nickh\Documents\博碩事項\書籍\第一版_黃裕淵\語法範例與ROM檔案\9\9-6-14-C#\bin\Debug\net9.0\9-6-14-C#.pdb
+c:\Users\nickh\Documents\博碩事項\書籍\第一版_黃裕淵\語法範例與ROM檔案\9\9-6-14-C#\obj\Debug\net9.0\9-6-14-C#.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\nickh\Documents\博碩事項\書籍\第一版_黃裕淵\語法範例與ROM檔案\9\9-6-14-C#\obj\Debug\net9.0\9-6-14-C#.AssemblyInfoInputs.cache
+c:\Users\nickh\Documents\博碩事項\書籍\第一版_黃裕淵\語法範例與ROM檔案\9\9-6-14-C#\obj\Debug\net9.0\9-6-14-C#.AssemblyInfo.cs
+c:\Users\nickh\Documents\博碩事項\書籍\第一版_黃裕淵\語法範例與ROM檔案\9\9-6-14-C#\obj\Debug\net9.0\9-6-14-C#.csproj.CoreCompileInputs.cache
+c:\Users\nickh\Documents\博碩事項\書籍\第一版_黃裕淵\語法範例與ROM檔案\9\9-6-14-C#\obj\Debug\net9.0\9-6-14-C#.dll
+c:\Users\nickh\Documents\博碩事項\書籍\第一版_黃裕淵\語法範例與ROM檔案\9\9-6-14-C#\obj\Debug\net9.0\refint\9-6-14-C#.dll
+c:\Users\nickh\Documents\博碩事項\書籍\第一版_黃裕淵\語法範例與ROM檔案\9\9-6-14-C#\obj\Debug\net9.0\9-6-14-C#.pdb
+c:\Users\nickh\Documents\博碩事項\書籍\第一版_黃裕淵\語法範例與ROM檔案\9\9-6-14-C#\obj\Debug\net9.0\9-6-14-C#.genruntimeconfig.cache
+c:\Users\nickh\Documents\博碩事項\書籍\第一版_黃裕淵\語法範例與ROM檔案\9\9-6-14-C#\obj\Debug\net9.0\ref\9-6-14-C#.dll

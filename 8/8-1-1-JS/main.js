@@ -1,0 +1,14 @@
+let orderJuice1 = 50 + 55;
+console.log("果汁價格是:", orderJuice1);
+let orderJuice2 = 60 + 55;
+console.log("果汁價格是:", orderJuice2);
+let orderJuice3 = 55 + 65;
+console.log("果汁價格是:", orderJuice3);
+let orderJuice4 = 40 + 50;
+console.log("果汁價格是:", orderJuice4);
+let orderJuice5 = 60 + 45;
+console.log("果汁價格是:", orderJuice5);
+let orderJuice6 = 40 + 40;
+console.log("果汁價格是:", orderJuice6);
+let orderJuice7 = 55 + 55;
+console.log("果汁價格是:", orderJuice7);
