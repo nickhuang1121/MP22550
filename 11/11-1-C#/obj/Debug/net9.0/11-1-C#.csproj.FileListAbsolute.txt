@@ -1,0 +1,5 @@
+c:\MP22550\11\11-1-C#\obj\Debug\net9.0\11-1-C#.GeneratedMSBuildEditorConfig.editorconfig
+c:\MP22550\11\11-1-C#\obj\Debug\net9.0\11-1-C#.AssemblyInfoInputs.cache
+c:\MP22550\11\11-1-C#\obj\Debug\net9.0\11-1-C#.AssemblyInfo.cs
+c:\MP22550\11\11-1-C#\obj\Debug\net9.0\11-1-C#.csproj.CoreCompileInputs.cache
+c:\MP22550\11\11-1-C#\obj\Debug\net9.0\11-1-C#.sourcelink.json
