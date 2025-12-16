@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("16-6-3-C#")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("10-3-C#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c51a5b5fdcb84bb50f982f3f59e5ee2f00363826")]
-[assembly: System.Reflection.AssemblyProductAttribute("16-6-3-C#")]
-[assembly: System.Reflection.AssemblyTitleAttribute("16-6-3-C#")]
+[assembly: System.Reflection.AssemblyProductAttribute("10-3-C#")]
+[assembly: System.Reflection.AssemblyTitleAttribute("10-3-C#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // 由 MSBuild WriteCodeFragment 類別產生。
