@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\MP22550\\5\\5-28-C#\\5-28-C#.csproj": {}
+    "C:\\MP22550\\5\\5-28-C#\\5-28-C#.csproj": {}
   },
   "projects": {
-    "c:\\MP22550\\5\\5-28-C#\\5-28-C#.csproj": {
+    "C:\\MP22550\\5\\5-28-C#\\5-28-C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\MP22550\\5\\5-28-C#\\5-28-C#.csproj",
+        "projectUniqueName": "C:\\MP22550\\5\\5-28-C#\\5-28-C#.csproj",
         "projectName": "5-28-C#",
-        "projectPath": "c:\\MP22550\\5\\5-28-C#\\5-28-C#.csproj",
+        "projectPath": "C:\\MP22550\\5\\5-28-C#\\5-28-C#.csproj",
         "packagesPath": "C:\\Users\\nickh\\.nuget\\packages\\",
-        "outputPath": "c:\\MP22550\\5\\5-28-C#\\obj\\",
+        "outputPath": "C:\\MP22550\\5\\5-28-C#\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
