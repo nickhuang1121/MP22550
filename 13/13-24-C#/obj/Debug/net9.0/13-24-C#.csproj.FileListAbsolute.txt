@@ -1,0 +1,15 @@
+c:\MP22550\13\13-24-C#\bin\Debug\net9.0\13-24-C#.exe
+c:\MP22550\13\13-24-C#\bin\Debug\net9.0\13-24-C#.deps.json
+c:\MP22550\13\13-24-C#\bin\Debug\net9.0\13-24-C#.runtimeconfig.json
+c:\MP22550\13\13-24-C#\bin\Debug\net9.0\13-24-C#.dll
+c:\MP22550\13\13-24-C#\bin\Debug\net9.0\13-24-C#.pdb
+c:\MP22550\13\13-24-C#\obj\Debug\net9.0\13-24-C#.GeneratedMSBuildEditorConfig.editorconfig
+c:\MP22550\13\13-24-C#\obj\Debug\net9.0\13-24-C#.AssemblyInfoInputs.cache
+c:\MP22550\13\13-24-C#\obj\Debug\net9.0\13-24-C#.AssemblyInfo.cs
+c:\MP22550\13\13-24-C#\obj\Debug\net9.0\13-24-C#.csproj.CoreCompileInputs.cache
+c:\MP22550\13\13-24-C#\obj\Debug\net9.0\13-24-C#.sourcelink.json
+c:\MP22550\13\13-24-C#\obj\Debug\net9.0\13-24-C#.dll
+c:\MP22550\13\13-24-C#\obj\Debug\net9.0\refint\13-24-C#.dll
+c:\MP22550\13\13-24-C#\obj\Debug\net9.0\13-24-C#.pdb
+c:\MP22550\13\13-24-C#\obj\Debug\net9.0\13-24-C#.genruntimeconfig.cache
+c:\MP22550\13\13-24-C#\obj\Debug\net9.0\ref\13-24-C#.dll
