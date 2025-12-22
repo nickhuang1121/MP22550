@@ -1,3 +1,0 @@
-﻿char aChar = 'A';
-byte byteResult = Convert.ToByte(aChar);
-Console.WriteLine($"{aChar}轉換成byte結果為{byteResult}");

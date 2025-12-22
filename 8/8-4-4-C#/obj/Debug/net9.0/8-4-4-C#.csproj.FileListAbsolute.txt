@@ -1,4 +1,0 @@
-c:\Users\nickh\Documents\博碩事項\書籍\第一版_黃裕淵\語法範例與ROM檔案\8\8-4-4-C#\obj\Debug\net9.0\8-4-4-C#.GeneratedMSBuildEditorConfig.editorconfig
-c:\Users\nickh\Documents\博碩事項\書籍\第一版_黃裕淵\語法範例與ROM檔案\8\8-4-4-C#\obj\Debug\net9.0\8-4-4-C#.AssemblyInfoInputs.cache
-c:\Users\nickh\Documents\博碩事項\書籍\第一版_黃裕淵\語法範例與ROM檔案\8\8-4-4-C#\obj\Debug\net9.0\8-4-4-C#.AssemblyInfo.cs
-c:\Users\nickh\Documents\博碩事項\書籍\第一版_黃裕淵\語法範例與ROM檔案\8\8-4-4-C#\obj\Debug\net9.0\8-4-4-C#.csproj.CoreCompileInputs.cache
